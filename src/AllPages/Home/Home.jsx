@@ -2,7 +2,7 @@ import Banner from "../../Headers/Header/Banner/Banner";
 
 const Home = () => {
     return (
-        <div className={`bg-hero-pattern bg-no-repeat bg-cover bg-top `}>
+        <div className={` `}>
             <Banner></Banner>
             header
         </div>
