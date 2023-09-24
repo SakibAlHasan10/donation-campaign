@@ -68,10 +68,10 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <img src="/public/Logo.png" className="h-10 pr-4 lg:pr-0" alt="logo" />
+          <img src="/public/Logo.png" className="h-10 md:h-14 pr-4 lg:pr-0" alt="logo" />
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-gl font-bold">
+          <ul className="menu menu-horizontal px-1 text-xl font-bold">
             <li>
               <NavLink
                 to={`/`}
