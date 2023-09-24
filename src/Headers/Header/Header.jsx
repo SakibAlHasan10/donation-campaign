@@ -1,9 +1,9 @@
-import Navbar from "../Navbar/Navbar";
+import Banner from "./Banner/Banner";
 
 const Header = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className={`bg-hero-pattern bg-no-repeat h-full bg-cover bg-center`}>
+            <Banner></Banner>
             header
         </div>
     );

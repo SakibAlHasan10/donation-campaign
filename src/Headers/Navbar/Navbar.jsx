@@ -6,7 +6,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(true);
   return (
     <nav>
-      <div className="navbar bg-base-100  max-w-screen-xl py-5 mx-auto px-8">
+      <div className="navbar max-w-screen-xl py-5 mx-auto px-8">
         <div className=" w-full lg:navbar-start flex justify-between">
           <div className="dropdown">
             <label

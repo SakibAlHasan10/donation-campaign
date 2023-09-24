@@ -1,8 +1,10 @@
+import Banner from "../../Headers/Header/Banner/Banner";
 
 const Home = () => {
     return (
-        <div>
-            <h2>home</h2>
+        <div className={`bg-hero-pattern bg-no-repeat bg-cover bg-top `}>
+            <Banner></Banner>
+            header
         </div>
     );
 };
