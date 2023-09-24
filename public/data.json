@@ -45,17 +45,6 @@
       },
       {
         "id": 5,
-        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
-        "title": "Clean Water for Villages",
-        "category": "water",
-        "category_bg": "#80bee8",
-        "card_bg": "#a5d3f2",
-        "text_color": "#3498db",
-        "description": "Bring clean water to remote villages and transform lives. Your donation will fund well construction and water purification projects.",
-        "price": 60
-      },
-      {
-        "id": 6,
         "picture": "https://i.ibb.co/7JPfYq3/Education.png",
         "title": "Scholarships for Bright Minds",
         "category": "education",
@@ -66,18 +55,18 @@
         "price": 35
       },
       {
-        "id": 7,
-        "picture": "https://i.ibb.co/B2cQFYq/Health.png",
-        "title": "Mobile Health Clinics",
-        "category": "health",
-        "category_bg": "#76e3a4",
-        "card_bg": "#b5f5d0",
-        "text_color": "#27ae60",
-        "description": "Bring medical care to remote areas with our mobile health clinics. Your donation will help us reach underserved populations.",
-        "price": 45
+        "id": 6,
+        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
+        "title": "Clean Water for Villages",
+        "category": "water",
+        "category_bg": "#80bee8",
+        "card_bg": "#a5d3f2",
+        "text_color": "#3498db",
+        "description": "Bring clean water to remote villages and transform lives. Your donation will fund well construction and water purification projects.",
+        "price": 60
       },
       {
-        "id": 8,
+        "id": 7,
         "picture": "https://i.ibb.co/HDdnzL9/Food.png",
         "title": "Meals for the Homeless",
         "category": "food",
@@ -88,29 +77,29 @@
         "price": 20
       },
       {
+        "id": 8,
+        "picture": "https://i.ibb.co/B2cQFYq/Health.png",
+        "title": "Mobile Health Clinics",
+        "category": "health",
+        "category_bg": "#76e3a4",
+        "card_bg": "#b5f5d0",
+        "text_color": "#27ae60",
+        "description": "Bring medical care to remote areas with our mobile health clinics. Your donation will help us reach underserved populations.",
+        "price": 45
+      },
+      {
         "id": 9,
-        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
-        "title": "Clean Water for Schools",
-        "category": "water",
-        "category_bg": "#80bee8",
-        "card_bg": "#a5d3f2",
-        "text_color": "#3498db",
-        "description": "Ensure that schools have access to clean water for drinking and sanitation. Your donation will help create a healthier learning environment.",
-        "price": 55
+        "picture": "https://i.ibb.co/HDdnzL9/Food.png",
+        "title": "Food Relief for Families",
+        "category": "food",
+        "category_bg": "#d1973b",
+        "card_bg": "#edbd72",
+        "text_color": "#f39c12",
+        "description": "Help struggling families put food on the table. Your support will provide groceries and nutritional support.",
+        "price": 15
       },
       {
         "id": 10,
-        "picture": "https://i.ibb.co/7JPfYq3/Education.png",
-        "title": "Educational Resources",
-        "category": "education",
-        "category_bg": "#e87b6f",
-        "card_bg": "#fccfca",
-        "text_color": "#e74c3c",
-        "description": "Equip schools with books, computers, and educational materials. Your contribution will empower students to succeed.",
-        "price": 40
-      },
-      {
-        "id": 11,
         "picture": "https://i.ibb.co/B2cQFYq/Health.png",
         "title": "Medical Supplies for Clinics",
         "category": "health",
@@ -121,15 +110,27 @@
         "price": 30
       },
       {
+        "id": 11,
+        "picture": "https://i.ibb.co/7JPfYq3/Education.png",
+        "title": "Educational Resources",
+        "category": "education",
+        "category_bg": "#e87b6f",
+        "card_bg": "#fccfca",
+        "text_color": "#e74c3c",
+        "description": "Equip schools with books, computers, and educational materials. Your contribution will empower students to succeed.",
+        "price": 40
+      },
+      {
         "id": 12,
-        "picture": "https://i.ibb.co/HDdnzL9/Food.png",
-        "title": "Food Relief for Families",
-        "category": "food",
-        "category_bg": "#d1973b",
-        "card_bg": "#edbd72",
-        "text_color": "#f39c12",
-        "description": "Help struggling families put food on the table. Your support will provide groceries and nutritional support.",
-        "price": 15
+        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
+        "title": "Clean Water for Schools",
+        "category": "water",
+        "category_bg": "#80bee8",
+        "card_bg": "#a5d3f2",
+        "text_color": "#3498db",
+        "description": "Ensure that schools have access to clean water for drinking and sanitation. Your donation will help create a healthier learning environment.",
+        "price": 55
       }
+      
     ]
   
