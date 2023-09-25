@@ -8,7 +8,7 @@
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
         "description": "Our 'Warmth for Winter' campaign is dedicated to ensuring that vulnerable individuals and families have the warmth they need during the cold winter months. As temperatures drop, many struggle to stay warm and protected, which can lead to serious health risks. We believe that everyone deserves to stay warm and healthy, and that's where your support comes in.",
-      "price": 50
+      "price": 550
       },
       {
         "id": 2,
@@ -19,7 +19,7 @@
         "card_bg": "#fccfca",
         "text_color": "#e74c3c",
         "description": "Education is the key to breaking the cycle of poverty. Our 'Quality Education Initiative' seeks to provide underprivileged children with access to quality education. Your support will help us build schools, provide essential learning materials, and offer scholarships to deserving students. By contributing to this campaign, you are investing in a brighter future for these children and their communities.",
-        "price": 30
+        "price": 330
       },
       {
         "id": 3,
@@ -30,7 +30,7 @@
         "card_bg": "#b5f5d0",
         "text_color": "#27ae60",
         "description": "Access to healthcare is a basic human right, yet millions of people lack proper medical care. Our 'Healthcare Access Project' aims to bridge this gap by establishing clinics and providing essential medical services to undeserved populations. Your donation will save lives and ensure that everyone has the opportunity to lead a healthy life.",
-        "price": 40
+        "price": 400
       },
       {
         "id": 4,
@@ -41,7 +41,7 @@
         "card_bg": "#f2d3a2",
         "text_color": "#d18c0a",
         "description": "Hunger is a persistent problem in many communities, and our 'Fight Hunger Campaign' is dedicated to alleviating this suffering. Your donation will support our efforts to provide food to families in need. Together, we can ensure that no one goes to bed hungry.",
-        "price": 25
+        "price": 250
       },
       {
         "id": 5,
@@ -52,7 +52,7 @@
         "card_bg": "#fccfca",
         "text_color": "#e74c3c",
         "description": "Talent knows no boundaries, and education should be accessible to all. Our 'Scholarships for Bright Minds' campaign aims to support talented students in pursuing higher education. Your contribution will fund scholarships for deserving individuals, empowering them to achieve their dreams.",
-        "price": 35
+        "price": 350
       },
       {
         "id": 6,
@@ -63,7 +63,7 @@
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
         "description": "Children are our future, and every child deserves to have proper clothing. Our 'Clothing Drive for Kids' campaign is committed to ensuring that children from underprivileged backgrounds have access to clean and comfortable clothing. Your support will enable us to collect and distribute clothing items such as school uniforms, shoes, and everyday wear to children in need. By providing them with these essentials, we not only boost their confidence but also remove a significant barrier to their education and well-being.",
-        "price": 60
+        "price": 600
       },
       {
         "id": 7,
@@ -74,7 +74,7 @@
         "card_bg": "#f2d3a2",
         "text_color": "#d18c0a",
         "description": "Homelessness is a pressing issue in our community, and many individuals go without a warm meal. Our 'Meals for the Homeless' campaign seeks to provide nourishing meals and hope to those in need. Your support can make a significant difference in their lives.",
-        "price": 20
+        "price": 200
       },
       {
         "id": 8,
@@ -85,7 +85,7 @@
         "card_bg": "#b5f5d0",
         "text_color": "#27ae60",
         "description": "Access to healthcare can be challenging in remote areas. Our 'Mobile Health Clinics' initiative takes medical care to those who need it the most. With your support, we can operate mobile clinics and provide essential medical services to underserved populations, ensuring that everyone has access to healthcare.",
-        "price": 45
+        "price": 450
       },
       {
         "id": 9,
@@ -96,7 +96,7 @@
         "card_bg": "#f2d3a2",
         "text_color": "#d18c0a",
         "description": "Many families struggle to put food on the table, especially during challenging times. Our 'Food Relief for Families' campaign aims to provide groceries and nutritional support to those in need. Your support will ensure that families have access to the nourishment they require for a healthy life.",
-        "price": 15
+        "price": 150
       },
       {
         "id": 10,
@@ -107,7 +107,7 @@
         "card_bg": "#b5f5d0",
         "text_color": "#27ae60",
         "description": "Clinics serving vulnerable populations often lack essential medical supplies. Your donation to 'Medical Supplies for Clinics' will provide much-needed equipment, medications, and resources to ensure that these clinics can continue to save lives and provide critical care.",
-        "price": 30
+        "price": 230
       },
       {
         "id": 11,
@@ -118,7 +118,7 @@
         "card_bg": "#fccfca",
         "text_color": "#e74c3c",
         "description": "Access to quality educational resources is vital for students to succeed. Our 'Educational Resources' campaign aims to equip schools with books, computers, and learning materials. Your contribution will empower students to excel in their studies and build a brighter future.",
-        "price": 40
+        "price": 380
       },
       {
         "id": 12,
@@ -129,7 +129,7 @@
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
         "description": "Homelessness is a pressing issue in our community, and the lack of warm clothing during the winter months can be life-threatening. Our 'Coats for the Homeless' campaign is dedicated to providing warm coats and winter essentials to homeless individuals. Your generous contributions will help us collect and distribute warm coats, hats, scarves, and gloves to those who are living on the streets. These items provide not only warmth and comfort but also a sense of dignity and hope.",
-        "price": 55
+        "price": 256
       }
       
     ]

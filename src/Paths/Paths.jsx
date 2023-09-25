@@ -3,6 +3,7 @@ import RootPages from "../RootPages/RootPages";
 import Home from "../AllPages/Home/Home";
 import Details from "../AllPages/Details/Details";
 import Donation from "../AllPages/Donation/Donation";
+import Statistics from "../AllPages/Statistics/Statistics";
 
 const allPath = createBrowserRouter([
     {
@@ -20,7 +21,7 @@ const allPath = createBrowserRouter([
             },
             {
                 path: '/statistics',
-                element: <div>statistics</div>
+                element: <Statistics></Statistics>
             },
             {
                 path: '/donation_details/:id',
