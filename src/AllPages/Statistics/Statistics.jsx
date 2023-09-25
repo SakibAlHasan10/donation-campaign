@@ -49,7 +49,7 @@ const Statistics = () => {
     );
   };
   return (
-    <div className="max-w-screen-xl mx-auto md:px-8">
+    <div className="max-w-screen-xl mx-auto md:px-8 mb-10 pb-16">
       <PieChart width={400} height={400} className="mx-auto  ">
         <Pie
           data={data}
