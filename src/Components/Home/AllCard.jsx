@@ -10,7 +10,6 @@ const AllCard = ({ category }) => {
     category_bg,
     text_color,
   } = category;
-  console.log(id)
   return (
     <div style={{ backgroundColor: card_bg }} className="rounded-xl">
       <Link to={`/donation_details/${id}`}>
