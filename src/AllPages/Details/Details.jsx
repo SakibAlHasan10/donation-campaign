@@ -12,9 +12,9 @@ const Details = () => {
     return (
         <div className="max-w-screen-xl mx-auto px-8 mt-10 mb-14">
             <div className="relative">
-                <img src={picture} alt="" className="w-full h-[700px] rounded-3xl"/>
-                <div  className="flex w-full rounded-b-3xl absolute -mt-32 h-32 bg-[#00000047]">
-                    <button onClick={()=> setLocalStorageData(num)} style={{backgroundColor: text_color}} className="m-10  px-5 py-2 text-xl font-semibold rounded-md text-white">Donate ${price}</button>
+                <img src={picture} alt="" className="w-full md:h-[500px] lg:h-[700px] rounded-3xl"/>
+                <div  className="flex w-full rounded-b-3xl absolute -mt-20 md:-mt-32 h-20 md:h-32 bg-[#00000047]">
+                    <button onClick={()=> setLocalStorageData(num)} style={{backgroundColor: text_color}} className="m-5 md:m-10  px-5 md:py-2 text-xl font-semibold rounded-md text-white">Donate ${price}</button>
                 </div>
             </div>
             <h2 className="text-4xl font-bold mt-12 mb-6">{title}</h2>

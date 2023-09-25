@@ -6,7 +6,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(true);
   return (
     <nav>
-      <div className="navbar max-w-screen-xl py-5 mx-auto px-8">
+      <div className="navbar max-w-screen-xl py-5 mx-auto px-4 md:px-8">
         <div className=" w-full lg:navbar-start flex justify-between">
           <div className="dropdown">
             <label
@@ -21,7 +21,7 @@ const Navbar = () => {
             ) : (
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className=" menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
               <NavLink
