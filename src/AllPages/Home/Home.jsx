@@ -1,9 +1,10 @@
-import { useLoaderData } from "react-router-dom";
 import Banner from "../../Headers/Header/Banner/Banner";
 import Category from "../../Components/Home/Category";
+import { useContext } from "react";
+import { myContext } from "../../RootPages/RootPages";
 
 const Home = () => {
-    const donationCategories = useLoaderData()
+    const donationCategories = useContext(myContext)
     return (
         <div className={` `}>
             <Banner></Banner>

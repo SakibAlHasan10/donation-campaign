@@ -1,12 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLoaderData } from "react-router-dom";
 import Navbar from "../Headers/Navbar/Navbar";
+import { createContext } from "react";
 
-
+export const myContext = createContext()
 const RootPages = () => {
+    const donationCategories = useLoaderData()
     return (
         <div>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <myContext.Provider value={donationCategories}>
+                <Outlet></Outlet>
+            </myContext.Provider>
         </div>
     );
 };

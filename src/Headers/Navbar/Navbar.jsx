@@ -56,7 +56,7 @@ const Navbar = () => {
                 to={`/statistics`}
                 className={({ isActive, isPending }) =>
                   isActive
-                    ? " text-red-600 underline"
+                    ? ` text-red-600 underline`
                     : isPending
                     ? "pending"
                     : ""
@@ -68,10 +68,10 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <img src="/public/Logo.png" className="h-10 md:h-14 pr-4 lg:pr-0" alt="logo" />
+          <img src="/Logo.png" className="h-10 md:h-14 pr-4 lg:pr-0" alt="logo" />
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-xl font-bold">
+          <ul className=" gap-6 menu-horizontal px-1 text-xl font-bold">
             <li>
               <NavLink
                 to={`/`}

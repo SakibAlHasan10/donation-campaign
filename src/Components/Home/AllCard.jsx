@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 const AllCard = ({ category }) => {
   const {
+    id,
     picture,
     title,
     category: item,
@@ -9,10 +10,10 @@ const AllCard = ({ category }) => {
     category_bg,
     text_color,
   } = category;
-
+  console.log(id)
   return (
     <div style={{ backgroundColor: card_bg }} className="rounded-xl">
-      <Link to={'/details'}>
+      <Link to={`/donation_details/${id}`}>
         <img src={picture} alt="" className="h-52 w-full rounded-t-xl" />
         <div className="px-4 pt-4 pb-5">
           <button
