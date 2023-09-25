@@ -1,14 +1,14 @@
 [
       {
         "id": 1,
-        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
-        "title": "Clean Water for All",
-        "category": "water",
+        "picture": "https://i.ibb.co/W00xsXw/Clothing.png",
+        "title": "Warmth for Winter",
+        "category": "clothing",
         "category_bg": "#8ec2e6",
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
-        "description": "Clean water is a fundamental human right, yet millions of people around the world lack access to safe drinking water. Our 'Clean Water for All' campaign aims to change that by bringing clean, reliable water sources to communities in need. We believe that access to clean water not only improves health but also empowers individuals and communities to thrive. With your generous donation, we can build wells, purify water sources, and provide education on sanitation. Together, we can make a lasting impact on the lives of countless people.",
-        "price": 50
+        "description": "Our 'Warmth for Winter' campaign is dedicated to ensuring that vulnerable individuals and families have the warmth they need during the cold winter months. As temperatures drop, many struggle to stay warm and protected, which can lead to serious health risks. We believe that everyone deserves to stay warm and healthy, and that's where your support comes in.",
+      "price": 50
       },
       {
         "id": 2,
@@ -56,13 +56,13 @@
       },
       {
         "id": 6,
-        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
-        "title": "Clean Water for Villages",
-        "category": "water",
+        "picture": "https://i.ibb.co/W00xsXw/Clothing.png",
+        "title": "Clothing Drive for Kids",
+        "category": "clothing",
         "category_bg": "#8ec2e6",
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
-        "description": "In remote villages, clean drinking water is often a luxury. Our 'Clean Drinking Water for Villages' campaign is working to change that. With your contribution, we can fund well construction and water purification projects, bringing clean and safe water to these communities. Join us in making a difference today.",
+        "description": "Children are our future, and every child deserves to have proper clothing. Our 'Clothing Drive for Kids' campaign is committed to ensuring that children from underprivileged backgrounds have access to clean and comfortable clothing. Your support will enable us to collect and distribute clothing items such as school uniforms, shoes, and everyday wear to children in need. By providing them with these essentials, we not only boost their confidence but also remove a significant barrier to their education and well-being.",
         "price": 60
       },
       {
@@ -122,13 +122,13 @@
       },
       {
         "id": 12,
-        "picture": "https://i.ibb.co/vHvrz2v/water.jpg",
-        "title": "Clean Water for Schools",
-        "category": "water",
+        "picture": "https://i.ibb.co/W00xsXw/Clothing.png",
+        "title": "Coats for the Homeless",
+        "category": "clothing",
         "category_bg": "#8ec2e6",
         "card_bg": "#a5d3f2",
         "text_color": "#1549c2",
-        "description": "Schools are the foundation of education, and clean water is essential for the health and well-being of students. Your donation to 'Clean Water for Schools' will ensure that educational institutions have access to clean water for drinking and sanitation, creating a healthier learning environment for children.",
+        "description": "Homelessness is a pressing issue in our community, and the lack of warm clothing during the winter months can be life-threatening. Our 'Coats for the Homeless' campaign is dedicated to providing warm coats and winter essentials to homeless individuals. Your generous contributions will help us collect and distribute warm coats, hats, scarves, and gloves to those who are living on the streets. These items provide not only warmth and comfort but also a sense of dignity and hope.",
         "price": 55
       }
       
