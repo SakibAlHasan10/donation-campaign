@@ -4,12 +4,14 @@ import Home from "../AllPages/Home/Home";
 import Details from "../AllPages/Details/Details";
 import Donation from "../AllPages/Donation/Donation";
 import Statistics from "../AllPages/Statistics/Statistics";
+import ErrorPage from "../AllPages/ErrorPage/ErrorPage";
 
 const allPath = createBrowserRouter([
     {
         path: '/',
         element: <RootPages></RootPages>,
         loader: ()=> fetch('/data.json'),
+        errorElement: <ErrorPage></ErrorPage>,
         children:[
             {
                 path:'/',
