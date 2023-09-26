@@ -16,9 +16,12 @@ const Donation = () => {
     // console.log(display)
     return (
         <div className="max-w-screen-xl mx-auto px-8 mt-5 mb-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className={`grid  
+            ${(filterCategory.length > 0) ? 'grid-cols-1 lg:grid-cols-2 gap-5' : ''}
+            `}>
                 {
-                    filterCategory.map((card, idx) => <GetLocalStore key={idx}
+                    (filterCategory.length <= 0) ? <h2 className="text-center text-2xl font-semibold flex items-center h-96 justify-center">No item available</h2> 
+                    : filterCategory.map((card, idx) => <GetLocalStore key={idx}
                     card={card}
                     ></GetLocalStore>)
                 }
