@@ -21,7 +21,8 @@ const Navbar = () => {
             ) : (
               <ul
                 tabIndex={0}
-                className=" menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className={` menu-sm text-xl duration-1000
+                ${ open ? "-mt-60" : "mt-3" } font-medium dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box w-52`}
               >
                 <li>
               <NavLink

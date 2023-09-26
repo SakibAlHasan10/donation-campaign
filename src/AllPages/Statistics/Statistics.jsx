@@ -5,25 +5,20 @@ import { PieChart, Pie, Cell } from "recharts";
 const Statistics = () => {
   const allCategory = useContext(myContext);
   const localStorData = getLocalStorageData();
-  const totalAmount = allCategory.reduce(
-    (accumulator, currentValue) => accumulator + currentValue.price,
-    0
-  );
+  const totalDonation = allCategory.length;
   const filterLocalData = allCategory.filter((data) =>
     localStorData.includes(data.id)
   );
-  const localDataTotal = filterLocalData.reduce(
-    (accumulator, currentValue) => accumulator + currentValue.price,
-    0
-  );
+  const yourDonation = filterLocalData.length;
   const data = [
-    { name: "Total Donation", value: totalAmount },
-    { name: "Your Donation", value: localDataTotal },
+    { name: "Total Donation", value: totalDonation },
+    { name: "Your Donation", value: yourDonation },
   ];
-  // console.log(data, totalAmount, localDataTotal);
+  // console.log(data, totalDonation, yourDonation);
   const COLORS = ["#e65007", "#00C49F"];
 
   const RADIAN = Math.PI / 180;
+  console.log(RADIAN*180)
   const renderCustomizedLabel = ({
     cx,
     cy,
@@ -44,7 +39,7 @@ const Statistics = () => {
         textAnchor={x > cx ? "start" : "end"}
         dominantBaseline="central"
       >
-        {`${(percent * 100).toFixed(0)}%`}
+        {`${(percent * 100).toFixed(2)}%`}
       </text>
     );
   };
