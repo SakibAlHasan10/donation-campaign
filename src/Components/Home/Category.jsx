@@ -1,10 +1,13 @@
+
 import AllCard from "./AllCard";
 import PropTypes from 'prop-types'
-const Category = ({donationCategories}) => {
+const Category = ({search}) => {
+
+
     return (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {
-                donationCategories.map((category, i) => <AllCard 
+                search.map((category, i) => <AllCard 
                 key={i}
                 category={category}
                 ></AllCard>)
@@ -13,6 +16,6 @@ const Category = ({donationCategories}) => {
     );
 };
 Category.propTypes ={
-    donationCategories: PropTypes.array
+    search: PropTypes.array
 }
 export default Category;

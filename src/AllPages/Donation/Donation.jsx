@@ -13,7 +13,7 @@ const Donation = () => {
     }
     const cards = useContext(myContext)
     const filterCategory = cards.filter(card => display.includes(card.id))
-    console.log(display)
+    // console.log(display)
     return (
         <div className="max-w-screen-xl mx-auto px-8 mt-5 mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">

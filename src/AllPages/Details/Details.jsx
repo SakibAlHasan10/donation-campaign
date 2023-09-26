@@ -7,7 +7,7 @@ const Details = () => {
     const categories = useContext(myContext)
     const {id} = useParams()
     const findCategory = categories.find(category => category.id === (+id) )
-    console.log(findCategory)
+    // console.log(findCategory)
     const { id:num, picture, title, description, price,text_color} = findCategory
     return (
         <div className="max-w-screen-xl mx-auto px-8 mt-10 mb-14">

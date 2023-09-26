@@ -5,17 +5,20 @@ import { myContext } from "../../RootPages/RootPages";
 
 const Home = () => {
     const donationCategories = useContext(myContext)
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState(donationCategories)
     const handleSearchCategory = (e) =>{
         e.preventDefault()
-        setSearch(e.target.name.value)
+        const searchText = (e.target.name.value)
+        const searchFilter = donationCategories.filter(card => card.category.toLowerCase() === searchText.toLowerCase());
+        setSearch(searchFilter);
+        e.target.name.value = '';
     }
-    console.log(search)
     return (
         <div >
             <Banner handleSearchCategory={handleSearchCategory}></Banner>
             <div className="max-w-screen-xl mx-auto px-8 my-20">
-                <Category donationCategories={donationCategories}
+                <Category
+                search={search}
                 ></Category>
             </div>
         </div>

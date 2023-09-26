@@ -20,7 +20,7 @@ const Statistics = () => {
     { name: "Total Donation", value: totalAmount },
     { name: "Your Donation", value: localDataTotal },
   ];
-  console.log(data, totalAmount, localDataTotal);
+  // console.log(data, totalAmount, localDataTotal);
   const COLORS = ["#e65007", "#00C49F"];
 
   const RADIAN = Math.PI / 180;
