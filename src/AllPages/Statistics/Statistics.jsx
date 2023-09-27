@@ -11,14 +11,14 @@ const Statistics = () => {
   );
   const yourDonation = filterLocalData.length;
   const data = [
-    { name: "Total Donation", value: totalDonation },
+    { name: "Total Donation", value: totalDonation - yourDonation },
     { name: "Your Donation", value: yourDonation },
   ];
   // console.log(data, totalDonation, yourDonation);
   const COLORS = ["#e65007", "#00C49F"];
 
   const RADIAN = Math.PI / 180;
-  console.log(RADIAN*180)
+  // console.log(RADIAN*180)
   const renderCustomizedLabel = ({
     cx,
     cy,
